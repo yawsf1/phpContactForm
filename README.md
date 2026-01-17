@@ -17,8 +17,8 @@ Everything runs on **one page** with inline CSS for a modern, responsive design.
 ```sql
 CREATE TABLE messages (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
     message TEXT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
